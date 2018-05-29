@@ -1,0 +1,62 @@
+{% load static %}
+<!doctype html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'landing_page/style.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="kpp.png">
+    <title>Passioneer</title>
+  </head>
+  <body>
+    <div class="fluid-container">
+      <div class="fortext">
+        <h1 id="text1">Show us your passion</h1>
+        <h3 id="text2">Explore, Develop, Find Friends</h1>
+        <a id="btn1">Sign In</a>
+        </div>
+        <div class="back"></div>
+        <div class="mod">
+          <div class="pic"></div>
+          <form>
+            <h1 class="text3">Register</h1>
+            <input type="firstname" placeholder="First name" id="firstname">
+            <input type="lastname" placeholder="Last name" id="lastname">
+            <input type="email" placeholder="E-mail" id="mail">
+            <input type="password" placeholder="Password" id="password">
+            <a class="btn2">Sign In</a>
+            <a id="log">Log In</a>
+            <a id="info">Clicking sign in button you agree with the regulations</a>
+          </form>
+        </div>
+        <div class="login">
+            <div class="back"></div>
+          <div class="pic2"></div>
+          <form>
+            <h1 class="text4">Log In</h1>
+            <input type="email" class="post" placeholder="E-mail">
+            <input type="password" class="key" placeholder="Password">
+            <a class="btn3">Log In</a>
+            <a class="forgot">Forgot password?</a>
+            <a id="log2">Sign Up</a>
+          </form>
+        <ul class="list-inline">
+          <a id="pro1" href="#">Terms of use</a>
+          <a id="pro2" href="#">Help</a>
+          <a id="pro3" href="#">What's new</a>
+        </ul>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="{% static 'landing_page/landing.js' %}"></script>
+</body>
+</html>
